@@ -1,0 +1,5 @@
+require("Gary.options")
+require("Gary.colorscheme")
+require("Gary.keymaps")
+require("Gary.options") 
+require("Gary.plugins-setup")
