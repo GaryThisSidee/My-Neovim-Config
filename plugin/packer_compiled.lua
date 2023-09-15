@@ -79,25 +79,51 @@ _G.packer_plugins = {
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
     url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["lush.nvim"] = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/lush.nvim",
     url = "https://github.com/rktjmp/lush.nvim"
   },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   nvim = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/nvim",
     url = "https://github.com/rose-pine/nvim"
   },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["nyan-modoki.vim"] = {
     loaded = true,
