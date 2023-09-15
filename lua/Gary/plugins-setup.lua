@@ -29,9 +29,23 @@ return packer.startup(function(use)
   use {'theprimeagen/harpoon'}
   use {'tpope/vim-fugitive'}
   use {'neovim/nvim-lspconfig'}
-  use { "Scysta/pink-panic.nvim" }
-  use { "catppuccin/nvim", as = "catppuccin" } 
-  use { "williamboman/mason.nvim" }  
+  use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+  use {
+  'VonHeikemen/lsp-zero.nvim',
+  branch = 'v2.x',
+  requires = {
+    -- LSP Support
+    {'neovim/nvim-lspconfig'},             -- Required
+    {'williamboman/mason.nvim'},           -- Optional
+    {'williamboman/mason-lspconfig.nvim'}, -- Optional
+
+    -- Autocompletion
+    {'hrsh7th/nvim-cmp'},     -- Required
+    {'hrsh7th/cmp-nvim-lsp'}, -- Required
+    {'L3MON4D3/LuaSnip'},     -- Required
+  }
+} 
+  use { 'huyvohcmc/atlas.vim' }
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
