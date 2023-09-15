@@ -9,12 +9,6 @@ local ensure_packer = function()
   return false
 end
 
-vim.cmd([[
-  augroup packer_user_config
-    autocmd!
-    autocmd BufWritePost plugins-setup.lua source <afile> | PackerSync
-  augroup end
-]])
 
 -- import packer safely
 local status, packer = pcall(require, "packer")
@@ -26,7 +20,15 @@ end
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
   use {'nyoom-engineering/oxocarbon.nvim'}
-  use { "rose-pine/nvim"}  
+  use {'mbbill/undotree'}
+  use { "rose-pine/nvim"}
+  use { "drillbits/nyan-modoki.vim" }
+  use { "rktjmp/lush.nvim" }
+  use {'rockerBOO/boo-colorscheme-nvim'}
+  use {'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} }
+  use {'theprimeagen/harpoon'}
+  use {'tpope/vim-fugitive'}
+  use { "Scysta/pink-panic.nvim" }
   use {
   'nvim-telescope/telescope.nvim', tag = '0.1.3',
   -- or                            , branch = '0.1.x',

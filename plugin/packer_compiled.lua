@@ -74,10 +74,35 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["boo-colorscheme-nvim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
+  },
+  harpoon = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   nvim = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/nvim",
     url = "https://github.com/rose-pine/nvim"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nyan-modoki.vim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/nyan-modoki.vim",
+    url = "https://github.com/drillbits/nyan-modoki.vim"
   },
   ["oxocarbon.nvim"] = {
     loaded = true,
@@ -89,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["pink-panic.nvim"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/pink-panic.nvim",
+    url = "https://github.com/Scysta/pink-panic.nvim"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -98,6 +128,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gary/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/gary/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
