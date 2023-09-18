@@ -17,3 +17,4 @@ keymap.set("n", "<leader>sx", ":close<CR>") -- close the current window
 
 keymap.set("n", "<leader>pv", ":Ntree<CR>") -- start the Ntree
 
+keymap.set("n", "<leader>ff", ":Neoformat<CR>") -- start the Ntree

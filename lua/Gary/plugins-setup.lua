@@ -29,7 +29,8 @@ return packer.startup(function(use)
   use {'theprimeagen/harpoon'}
   use {'tpope/vim-fugitive'}
   use {'neovim/nvim-lspconfig'}
-  use { "briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim" }
+  use {"briones-gabriel/darcula-solid.nvim", requires = "rktjmp/lush.nvim"}
+  use {"sbdchd/neoformat"}
   use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v2.x',
